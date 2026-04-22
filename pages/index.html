@@ -130,9 +130,28 @@
                     <label for="favoriteColor">Cor favorita</label>
                     <input type="color" name="userFavoriteColor" id="favoriteColor">
 
-
                 </fieldset>
 
+
+                <fieldset>
+                        <legend>Feedback</legend>
+
+                    <p>Nível de satisfação:</p>
+                    <input id="great" type="radio" name="userFeedback" value="otimo">
+                    <label for="great">Ótimo</label>
+                    <input id="good" type="radio" name="userFeedback" value="boa">
+                    <label for="good">Boa</label>
+                    <input id="regular" type="radio" name="userFeedback" value="regular">
+                    <label for="regular">Regular</label>
+                    <input id="bad" type="radio" name="userFeedback" value="ruim">
+                    <label for="bad">Ruim</label>
+                    <br>
+
+                    <p>Comentário</p>
+                    <label for="comment"></label>
+                    <textarea name="userComment" id="comment" placeholder="Digite aqui..." rows="15" cols="50"></textarea>
+
+                </fieldset>
 
                 <button type="submit">Enviar</button>
             </form>
