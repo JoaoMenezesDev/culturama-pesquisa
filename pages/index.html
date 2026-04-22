@@ -18,7 +18,8 @@
             <form action="" method="get"> 
                 <fieldset>
                                                               
-                    <legend>Dados Pessoais</legend>
+                                            <legend>Dados Pessoais</legend>
+
                     <label for="name">Nome</label>
                     <input id="name" name="userName" required>
                     <br>
@@ -40,7 +41,8 @@
                 </fieldset>
               
                 <fieldset>
-                    <legend>Perfil</legend>
+
+                                            <legend>Perfil</legend>
 
                     <p>Gênero:</p>
                     <input id="fem" type="radio" name="userGender" value="Feminino">
@@ -97,7 +99,8 @@
                 </fieldset>
 
                 <fieldset>
-                    <legend>Habitos</legend>
+
+                                                <legend>Habitos</legend>
 
                     <p>Redes Sociais:</p>
 
@@ -113,6 +116,19 @@
                     <input id="x" type="checkbox" name="social" value="x">
                     <label for="x">X</label>
                     <br>
+
+                    <label for="musicStyle">Estilo Musical:</label>
+                    <input list="styleTypes" id="musicStyle" name="userMusicStyle" type="text">
+
+                    <datalist id="styleTypes">
+                        <option value="rock"></option>
+                        <option value="pop"></option>
+                        <option value="samba"></option>
+                        <option value="sertanejo"></option>
+                    </datalist>
+
+
+
                 </fieldset>
 
 
