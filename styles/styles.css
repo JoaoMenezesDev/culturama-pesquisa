@@ -49,8 +49,18 @@ legend {
 }
 
 label {
-    display: inline-block;
     margin-bottom: 8px;
+}
+
+input[type="tel"],
+input[type="filegit add"] {
+    margin-bottom: 0;
+}
+
+small {
+    
+    display: inline-block;
+    margin-bottom: 20px;
 }
 
 p {
